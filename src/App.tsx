@@ -13,7 +13,7 @@ function App() {
             <h3>Thumbs up</h3>
             <ul>
               <li>
-                Modal box is centered without any css code and browser gives it
+                Modal box is centered without any css code and browsers give it
                 basic styling.
               </li>
               <li>Automatically focused if there are inputs inside.</li>
@@ -23,8 +23,13 @@ function App() {
             </ul>
             <h3>Thumbs down</h3>
             <ul>
-              <li>Can't be apply animations on backdrop.</li>
-              <li>No closing function with clicking backdrop.</li>
+              <li>
+                Default backdrop is not bad but we can't apply animations on it.
+              </li>
+              <li>
+                No closing function with clicking backdrop, so we need to make
+                it.
+              </li>
             </ul>
             <div>
               <input type="text" placeholder="autofocus here" />
@@ -52,7 +57,7 @@ function App() {
             <ul>
               <li>
                 Requiring to implement additional backdrop element with its
-                appearance & motions but less than old ways.
+                appearance & motions but codes are less than old ways.
               </li>
               <li>
                 Additionaly, we also need to control event of backdrop clicking.
@@ -70,16 +75,20 @@ function App() {
           <>
             <h3>Thumbs up</h3>
             <ul>
-              <li>Working good old tips to controll all aspects of modals.</li>
+              <li>
+                Good old tips working well to controll all aspects of modals.
+              </li>
             </ul>
             <h3>Thumbs down</h3>
             <ul>
               <li>Need to write css for centering & other appearance.</li>
               <li>
-                Requiring to implement inteructions for backdrop & close
-                buttons.
+                Requiring implementation of event handlers for backdrop &
+                closebuttons.
               </li>
-              <li>Requiring .</li>
+              <li>
+                Requiring implementation of click event for Escape key function.
+              </li>
             </ul>
             <div>
               <input type="text" placeholder="not focusing automaticaly" />
