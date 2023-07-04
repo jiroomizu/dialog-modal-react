@@ -1,7 +1,7 @@
 # dialog-modal-react
 HTML dialog element example with react.
 
-## Does dialog tag make us implement modals easily?
+## Does dialog tag make us implementing modals easier?
 
 `<dialog>` element is useful in some points like,
 
