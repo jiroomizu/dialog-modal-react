@@ -1,0 +1,28 @@
+.dialog--w-backdrop::backdrop {
+  opacity: 0;
+}
+
+.backdrop {
+  background-color: rgba(0, 255, 0, 0);
+  backdrop-filter: blur(10px);
+  content: '';
+  height: 0dvh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: height 0s 0.2s, background-color 0.2s;
+  width: 100dvw;
+}
+
+.backdrop.active {
+  height: 100dvh;
+  background-color: rgba(0, 255, 0, 0.2);
+  transition: height 0s, background-color 0.3s;
+}
+
+.dialog--w-backdrop {
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 0;
+}
